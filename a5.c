@@ -1,16 +1,38 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include "KDtree.h"
 
-int main(int argc, char *argv){
+int main(int argc, char *argv[]) {
 
     int numPoints;
-    int death = 0;
-    Point* points = read_points("points.txt", &numPoints);
+    int numCollisions;
+    int depth = 0;
+    Point center;
+    int radius;
 
+     //step 1: read inpit file
+    if (argc != 2) {
+        return 1;
+    }
+    Point* points = read_points(argv[1], &numPoints);
+    //Point* points = read_points("points.txt", &numPoints);
+    if (points == NULL) {
+        return 1;
+    }
+    
+    // step 2: build the tree
+    Node* root = build_tree(points, numPoints, depth);
+
+    //step 3: find collisions then output the number
+    while (scanf("%d %d %d", &center.x, &center.y, &radius) == 3) {
+        numCollisions = find_collisions(root, center, radius, depth);
+        printf("%d\n", numCollisions);
+    }
      
+    // Step 4: Free allocated memory
     free(points);
-    //free_tree(&root);
+    free_tree(root);
     
 }
 

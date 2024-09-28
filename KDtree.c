@@ -179,9 +179,6 @@ int find_collisions(Node* root, Point center, int radius, int depth) {
 
 }
 
-void destroy_tree(Node* root);
-
-
 
 //free every node in tree(need change)
 void free_tree(Node* treenode) {
@@ -192,7 +189,6 @@ void free_tree(Node* treenode) {
 	
 	free_tree(treenode->left);
 	free_tree(treenode->right);
-
 	free(treenode);
 
 }

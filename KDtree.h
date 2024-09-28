@@ -20,15 +20,13 @@ int compareX(const void* a, const void* b);
 
 int compareY(const void* a, const void* b);
 
-Node* build_tree(Point* points, int num, int death);
+Node* build_tree(Point* points, int num, int depth);
 
-//bool ptpdistance(Node* treenode, int cx, int cy, int radius);
+bool check_distance(Point point, Point center, int radius);
 
-//int find_collisions();
+int find_collisions(Node* root, Point center, int radius, int depth);
 
-//void free_tree(Node* root);
-
-
+void free_tree(Node* root);
 
 #endif
 
