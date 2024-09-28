@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment5\\Collision_Detection_in_2D_Space\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5841C9-5654-41BD-9509-F602B5987997}|Collision_Detection_in_2D_Space.vcxproj|C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment5\\Collision_Detection_in_2D_Space\\KDtree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FE5841C9-5654-41BD-9509-F602B5987997}|Collision_Detection_in_2D_Space.vcxproj|solutionrelative:KDtree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5841C9-5654-41BD-9509-F602B5987997}|Collision_Detection_in_2D_Space.vcxproj|C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment5\\Collision_Detection_in_2D_Space\\KDtree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FE5841C9-5654-41BD-9509-F602B5987997}|Collision_Detection_in_2D_Space.vcxproj|solutionrelative:KDtree.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5841C9-5654-41BD-9509-F602B5987997}|Collision_Detection_in_2D_Space.vcxproj|C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment5\\Collision_Detection_in_2D_Space\\a5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FE5841C9-5654-41BD-9509-F602B5987997}|Collision_Detection_in_2D_Space.vcxproj|solutionrelative:a5.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment4\\368A4\\368A4_LINKLIST.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment4\\368A4\\368A4_LINKLIST.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KDtree.c",
+              "DocumentMoniker": "C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment5\\Collision_Detection_in_2D_Space\\KDtree.c",
+              "RelativeDocumentMoniker": "KDtree.c",
+              "ToolTip": "C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment5\\Collision_Detection_in_2D_Space\\KDtree.c",
+              "RelativeToolTip": "KDtree.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-28T13:36:23.133Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KDtree.h",
+              "DocumentMoniker": "C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment5\\Collision_Detection_in_2D_Space\\KDtree.h",
+              "RelativeDocumentMoniker": "KDtree.h",
+              "ToolTip": "C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment5\\Collision_Detection_in_2D_Space\\KDtree.h",
+              "RelativeToolTip": "KDtree.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-28T13:36:10.118Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "a5.c",
+              "DocumentMoniker": "C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment5\\Collision_Detection_in_2D_Space\\a5.c",
+              "RelativeDocumentMoniker": "a5.c",
+              "ToolTip": "C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment5\\Collision_Detection_in_2D_Space\\a5.c",
+              "RelativeToolTip": "a5.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-26T20:05:02.401Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "368A4_LINKLIST.c",
+              "DocumentMoniker": "C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment4\\368A4\\368A4_LINKLIST.c",
+              "RelativeDocumentMoniker": "..\\..\\assignment4\\368A4\\368A4_LINKLIST.c",
+              "ToolTip": "C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment4\\368A4\\368A4_LINKLIST.c",
+              "RelativeToolTip": "..\\..\\assignment4\\368A4\\368A4_LINKLIST.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-28T14:07:27.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "368A4_LINKLIST.h",
+              "DocumentMoniker": "C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment4\\368A4\\368A4_LINKLIST.h",
+              "RelativeDocumentMoniker": "..\\..\\assignment4\\368A4\\368A4_LINKLIST.h",
+              "ToolTip": "C:\\Users\\Su-Han Cheng\\Desktop\\Purdue\\junior\\368\\assignment4\\368A4\\368A4_LINKLIST.h",
+              "RelativeToolTip": "..\\..\\assignment4\\368A4\\368A4_LINKLIST.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-28T13:40:54.779Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
