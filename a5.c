@@ -4,14 +4,24 @@
 
 int main(int argc, char *argv){
 
-    //read
-    //initial tree
+    int numPoints;
+    Point* points = read_points("points.txt", &numPoints);
+
+    //test of read_points
+    for (int i = 0; i < numPoints; i++) {
+        printf("Point %d: (%d, %d)\n", i + 1, points[i].x, points[i].y);
+    }
      
-     
-     
-     
-    //free
-    free_tree(&root);
+    free(points);
+    //free_tree(&root);
     
 }
+
+
+/*
+    //test of read_points
+    for (int i = 0; i < numPoints; i++) {
+        printf("Point %d: (%d, %d)\n", i + 1, points[i].x, points[i].y);
+    }
+*/
 

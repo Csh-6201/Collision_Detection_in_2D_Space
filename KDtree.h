@@ -12,6 +12,8 @@ typedef struct treenode {
 	struct treenode* right;
 }Node;
 
+Point* read_points(char* filename, int* numPoints);
+
 //Node* build_tree(Node *root, int death);
 
 //bool ptpdistance(Node* treenode, int cx, int cy, int radius);
