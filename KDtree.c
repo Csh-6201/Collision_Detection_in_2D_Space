@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include "KDtree.h"
 
 
@@ -127,7 +128,56 @@ Node* build_tree(Point* points, int num, int depth) {
 	return root;
 }
 
-int find_collisions();
+
+bool check_distance(Point point, Point center, int radius) {
+
+	int dx = point.x - center.x;
+	int dy = point.y - center.y;
+	
+	if (dx * dx + dy * dy <= radius * radius) {
+		return true;
+	}
+	else {
+		return false;
+	}
+
+}
+
+
+int find_collisions(Node* root, Point center, int radius, int depth) {
+
+	// Base case
+	if (root == NULL) {
+		return 0;
+	}
+
+	int count = 0;
+	if (check_distance(root->point, center, radius)) {
+		count++;
+	}
+
+	// x-axis = 0, y-axis = 1
+	int axis = depth % 2;
+	if (axis == 0) {
+		if (center.x - radius <= root->point.x) {
+			count += find_collisions(root->left, center, radius, depth + 1);
+		}
+		if (center.x + radius >= root->point.x) {
+			count += find_collisions(root->right, center, radius, depth + 1);
+		}
+	}
+	else if (axis == 1) {
+		if (center.y - radius <= root->point.y) {
+			count += find_collisions(root->left, center, radius, depth + 1);
+		}
+		if (center.y + radius >= root->point.y) {
+			count += find_collisions(root->right, center, radius, depth + 1);
+		}
+	}
+
+	return count;
+
+}
 
 void destroy_tree(Node* root);
 
@@ -139,15 +189,15 @@ void free_tree(Node* treenode) {
 	if (treenode == NULL) {
 		return;
 	}
-	else {
-		free_tree(treenode->left);
-		free_tree(treenode->right);
-	}
+	
+	free_tree(treenode->left);
+	free_tree(treenode->right);
 
 	free(treenode);
 
 }
 
+/*
 // Function to print the k-d tree (pre-order traversal)
 void print_tree(Node* root, int depth) {
 	if (root == NULL) {
@@ -161,3 +211,4 @@ void print_tree(Node* root, int depth) {
 	print_tree(root->left, depth + 1);
 	print_tree(root->right, depth + 1);
 }
+*/
